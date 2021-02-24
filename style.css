@@ -97,6 +97,12 @@ textarea{
   transition: 0.5s;
 }
 
+input:focus, 
+textarea:focus,
+select:focus { 
+  background-color: rgb(190, 209, 214);
+}
+
 #zip {
   width: 25%;
 }
