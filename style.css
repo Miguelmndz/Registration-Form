@@ -11,6 +11,7 @@ body{
   font-family: 'Shippori Mincho', serif;
   font-size: 1rem;
   
+  
 }
 
 h1 {
@@ -41,10 +42,16 @@ label {
   display: inline-block;
   margin: 0rem 0 0.3rem 0;
 }
+
+footer {
+  text-align: center;
+  color: #676a6d;
+}
 /* Main Styles */
 .container {
   width: 90%;
   margin: 0 auto;
+  
 }
 
 .top-section {
@@ -87,6 +94,7 @@ textarea{
   border: none;
   background: #EFF0F1;
   border-radius: 4px;
+  transition: 0.5s;
 }
 
 #zip {
